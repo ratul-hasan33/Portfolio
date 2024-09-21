@@ -606,8 +606,11 @@ Blogs Page Style Area
   filter: drop-shadow(0px 3px 6px #ffffff );
 }
 
-#archive_title{
+#archive_title, #search_title{
+  margin-top: 20px;
   background: var(--hover-color);
+  padding: 10px 10px;
+  color: var(--primarycolor);
 }
 
 #page_nav .pages{
@@ -630,6 +633,10 @@ Blogs Page Style Area
 }
 #page_nav pre{
   display: none;
+}
+.readmore{
+  padding: 10px 20px;
+  background-color: var(--hover-color);
 }
 /*=======================================
  Media Query
